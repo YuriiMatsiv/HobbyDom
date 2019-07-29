@@ -60,15 +60,21 @@ h2 {
     text-decoration: none;
 }
 
+.mailTo:hover {
+    color: var(--h1Color);
+}
+
 .teacher__specialization{
     color: #787878;
     font-size: 20px;
     text-decoration: underline var(--h1Color);
 }
 
-.mailTo, .teacher__specialization:hover {
+
+.teacher__specialization:hover {
     color: var(--h1Color);
 }
+
 .section__specialization{
     text-decoration: underline red;
     list-style-type: none;
@@ -79,18 +85,15 @@ h2 {
     display: flex;
     flex-direction: column;
 align-items: center;
-
 }
 
 .moreInfo__loader {
     width: 80px;
     padding-top: 50px;
-
 }
 
 .moreInfo__text{
     text-transform: uppercase;
     font-size: 18px;
     color: #787878;
-
 }
