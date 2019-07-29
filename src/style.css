@@ -1,0 +1,32 @@
+@import "header_css.css";
+@import "menu.css";
+@import "main.css";
+@import "footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Scheme-Regular"
+}
+
+@font-face {font-family: "Scheme-Regular";
+  src: url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.eot");
+  src: url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.svg#SchemeW01-Regular") format("svg");
+}
+
+:root {
+  --blue: #36baa2;
+  --footerBeckground: #e2e2e2;
+  --footerItemColor: #9e9e9e;
+  --h1Color:#ffd370;
+  --main_font: "Scheme-Regular", sans-serif;
+}
+
+

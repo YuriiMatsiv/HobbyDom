@@ -1,0 +1,80 @@
+
+header {
+    height: 41px;
+    background-color: var(--blue);
+}
+
+
+.header-wrapper {
+    max-width: 1303px;
+    height: 41px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contactInfo_position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--main_font);
+    font-size: 14px;
+    height: 41px;
+    vertical-align: middle;
+    line-height: 41px;
+}
+
+.contactInfo_icon {
+    margin-right: 13px;
+}
+
+.contactInfo__firstContact, .contactInfo__secondContact {
+    margin-right: 8px;
+    font-size: 17px;
+    font-family: var(--main_font);
+}
+
+
+.socialInfo {
+    display: flex;
+    justify-content: flex-end;
+    font-family: var(--main_font);
+    vertical-align: middle;
+    line-height: 41px;
+    width: 50%;
+}
+
+.socialInfo__price {
+    text-transform: uppercase;
+    margin: 0px 25px;
+}
+
+.socialInfo__priceLink {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+
+.socialInfo__language {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.socialInfo__language::after {
+    content: url("image/arrow.png");
+}
+
+
+.socialInfo__socialNetwork {
+    margin-top: 5px;
+}
+
+

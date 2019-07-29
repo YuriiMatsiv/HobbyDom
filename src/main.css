@@ -1,0 +1,96 @@
+main {
+    width: 100%;
+    font-family: var(--main_font);
+}
+
+.pattern_image {
+    width: 100%;
+}
+
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+h1 {
+    flex-basis: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--h1Color);
+    margin: 120px 0 50px;
+
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    color: #858585;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+.someText {
+    color: #787878;
+    line-height: 39px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.section__info {
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 34px 80px;
+    margin-top: 35px;
+}
+
+.section_photo {
+    padding-right: 77px;
+    text-align: center;
+    color: #787878;
+    font-size: 22px;
+}
+
+.mailTo {
+    color: #787878;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.teacher__specialization{
+    color: #787878;
+    font-size: 20px;
+    text-decoration: underline var(--h1Color);
+}
+
+.mailTo, .teacher__specialization:hover {
+    color: var(--h1Color);
+}
+.section__specialization{
+    text-decoration: underline red;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.moreInfo {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+.moreInfo__loader {
+    width: 80px;
+    padding-top: 50px;
+
+}
+
+.moreInfo__text{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #787878;
+
+}
