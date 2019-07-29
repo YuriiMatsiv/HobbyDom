@@ -1,7 +1,8 @@
-@import "header_css.css";
-@import "menu.css";
-@import "main.css";
-@import "footer.css";
+@import "css components/header_css.css";
+@import "css components/menu.css";
+@import "css components/main.css";
+@import "css components/footer.css";
+@import "css components/about.css";
 
 * {
   box-sizing: border-box;
