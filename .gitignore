@@ -5,6 +5,9 @@
 *.log
 *.swp
 
+
 *.report.html
 
 node_modules
+
+package.json
