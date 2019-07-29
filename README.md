@@ -1,13 +1,8 @@
-# Project Name
+# Hobby Dom
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://yuriimatsiv.github.io/HobbyDom/src/index.html)
 
-### Description
+### Hobby Dom - site for different interests
 
-Tell about your project
 
-### Technologies are used
-
-- HTML
-- CSS
-- ...
+We use: HTML, CSS, JS
