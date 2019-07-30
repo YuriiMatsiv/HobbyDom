@@ -33,6 +33,15 @@ h2 {
 
 }
 
+/*about section*/
+.about__conteiner{
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+
 .someText {
     color: #787878;
     line-height: 39px;
@@ -54,6 +63,8 @@ h2 {
     font-size: 22px;
 }
 
+
+/*other section*/
 .mailTo {
     color: #787878;
     font-size: 20px;
@@ -97,3 +108,4 @@ align-items: center;
     font-size: 18px;
     color: #787878;
 }
+
