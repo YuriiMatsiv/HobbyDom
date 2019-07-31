@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Hobby Dom</title>
     <link href="style.css" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/f70b20fbdd5544d7b2452b3b8522f015?family=SchemeW01-Regular"
-          rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/ad76a281ea.js"></script>
+
+
 </head>
 
 <body>
@@ -65,38 +66,36 @@
         <h1>о нас</h1>
         <div class="about__conteiner">
             <div class="slider_wrapper">
-                <div class="slider_slide">
-                    <img src="image/image2.jpg" id ="lastClone" alt="some image">
-                    <img src="image/image1.png" alt="some image">
-                    <img src="image/image2.jpg" alt="some image">
-                    <img src="image/image1.png" alt="some image">
-                    <img src="image/image2.jpg" alt="some image">
-                    <img src="image/image1.png" id ="firstClone" alt="some image">
+                <div id="slider_slide">
+                    <img class="slider_image" src="image/a.jpg" alt="some image">
+
                 </div>
-                <button class="prevBtn"><img src="image/icon_left.png" alt="left arrow"></button>
-                <button class="nextBtn"><img src="image/icon_right.png" alt="right arrow"></button>
+                <button class="prew fa fa-chevron-left" onclick="prewImage()"></button>
+                <button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+
+                <div class="about__info">
+                    <ul class="slider_info">
+                        <h3 class="slider_title">Семейный клуб развития детей и родителей</h3>
+                        <li class="someText slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quam
+                            qui
+                            quibusdam temporibus
+                            voluptatem. Accusamus, assumenda consequuntur eius iusto perspiciatis possimus quasi rem
+                            repellat,
+                            repudiandae sed temporibus voluptatibus. Ab autem cupiditate distinctio id quisquam! Amet
+                            asperiores
+                            aspernatur at beatae culpa dicta dolores doloribus explicabo hic incidunt, ipsum itaque
+                            labore
+                            laudantium magni mollitia, nisi nulla reprehenderit, rerum sed soluta suscipit totam unde
+                            voluptatum.
+                        </li>
+                        <li class="someText slide"></li>
+                        <li class="someText slide"></li>
+                        <li class="someText slide"></li>
+                        <li class="someText slide"></li>
+                    </ul>
+                </div>
             </div>
 
-
-            <div class="about__info">
-                <ul class="slider_info">
-                    <h3 class="slider_title">Семейный клуб развития детей и родителей</h3>
-                    <li class="someText slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quam qui
-                        quibusdam temporibus
-                        voluptatem. Accusamus, assumenda consequuntur eius iusto perspiciatis possimus quasi rem
-                        repellat,
-                        repudiandae sed temporibus voluptatibus. Ab autem cupiditate distinctio id quisquam! Amet
-                        asperiores
-                        aspernatur at beatae culpa dicta dolores doloribus explicabo hic incidunt, ipsum itaque labore
-                        laudantium magni mollitia, nisi nulla reprehenderit, rerum sed soluta suscipit totam unde
-                        voluptatum.
-                    </li>
-                    <li class="someText slide"></li>
-                    <li class="someText slide"></li>
-                    <li class="someText slide"></li>
-                    <li class="someText slide"></li>
-                </ul>
-            </div>
         </div>
 
 

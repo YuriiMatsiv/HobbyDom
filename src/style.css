@@ -46,8 +46,6 @@ body {
     margin: 0 auto;
   }
 
-
-
 }
 @media screen and (max-width: 900px) {
 
@@ -90,13 +88,17 @@ body {
     font-size: 16px;
   }
 
-  .about__conteiner {
+  .slider_wrapper {
     display: flex;
     flex-direction: column-reverse;
     margin: 0 auto;
     margin-bottom: 10px;
-
   }
+
+  #slider_slide {
+  margin: 0 auto;
+   }
+
   .about__info {
     width: 80%;
     margin: 0 auto;
