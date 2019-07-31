@@ -26,3 +26,8 @@ function prewImage(){
     slider_content.innerHTML = "<img src=image/"+imag[i-1]+".jpg>";
 
 }
+
+
+function showModal(){
+
+}

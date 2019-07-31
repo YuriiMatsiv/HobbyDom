@@ -2,11 +2,11 @@
 @import "css components/menu.css";
 @import "css components/main.css";
 @import "css components/footer.css";
-@import "css components/about.css";
+
 
 * {
   box-sizing: border-box;
-  transition: ease all .9s;
+  /*transition: ease all .9s;*/
 }
 
 body {
@@ -38,6 +38,7 @@ body {
     height: 140px;
     background-image: none;
     background-color: #f8f8f8;
+    transition: ease all .9s;
   }
   .nav {
     display: flex;
@@ -51,6 +52,7 @@ body {
 
   header {
     height: 85px;
+    transition: ease all .9s;
   }
   .header-wrapper {
     flex-direction: column;
@@ -72,6 +74,7 @@ body {
     height: 55px;
     background-image: none;
     background-color: #f8f8f8;
+    transition: ease all .9s;
   }
   h1 {
     font-size: 28px;
@@ -83,12 +86,14 @@ body {
   h2 {
     font-size: 18px;
   }
+  
   .someText {
     line-height: 39px;
     font-size: 16px;
   }
 
   .slider_wrapper {
+    transition: ease all .9s;
     display: flex;
     flex-direction: column-reverse;
     margin: 0 auto;

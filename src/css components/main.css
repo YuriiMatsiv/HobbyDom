@@ -33,7 +33,7 @@ h2 {
 /*about section*/
 
 .about__conteiner {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .slider_wrapper {
@@ -64,14 +64,26 @@ h2 {
 
 .next {
     position: absolute;
-    top: 450px;
+    top: 460px;
     left: 600px;
+    overflow: hidden;
 }
 
 .prew {
     position: absolute;
-    top: 450px;
-    left: 560px;
+    top: 460px;
+    left: 530px;
+}
+
+.prew, .next {
+    width: 45px;
+    height: 45px;
+    color: #ffd370;
+    border-radius: 50%;
+    border: 2px solid #ffd370;
+    background: white;
+    padding-top: 11px;
+    text-align: center;
 }
 
 .slide {
@@ -81,6 +93,7 @@ h2 {
 .slider_title {
     color: var(--h1Color);
 }
+
 
 /*other section*/
 .someText {
