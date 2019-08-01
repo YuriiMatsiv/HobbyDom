@@ -1,4 +1,6 @@
 let slider_content = document.getElementById('slider_slide');
+let counter_content = document.getElementById('counter');
+
 
 console.log(slider_content);
 
@@ -13,7 +15,7 @@ function nextImage(){
         i = 1;
     }
     slider_content.innerHTML = "<img src = image/"+imag[i-1]+".jpg>";
-
+    counter_content.innerHTML = "<span>1/"+(i)+"</span> <p class=\"counter_text\">Наши клуби</p>";
 }
 
 function prewImage(){
@@ -24,10 +26,6 @@ function prewImage(){
         i = imag.length;
     }
     slider_content.innerHTML = "<img src=image/"+imag[i-1]+".jpg>";
-
+    counter_content.innerHTML ="<span>1/"+(i)+"</span>";
 }
 
-
-function showModal(){
-
-}
