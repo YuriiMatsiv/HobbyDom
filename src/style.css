@@ -5,107 +5,232 @@
 
 
 * {
-  box-sizing: border-box;
-  /*transition: ease all .9s;*/
+    box-sizing: border-box;
+    /*transition: ease all .9s;*/
 }
 
 body {
-  margin: 0;
-  font-family: "Scheme-Regular"
+    margin: 0;
+    font-family: "Scheme-Regular"
 }
 
-@font-face {font-family: "Scheme-Regular";
-  src: url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.eot");
-  src: url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.eot?#iefix") format("embedded-opentype"),
-  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.woff2") format("woff2"),
-  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.woff") format("woff"),
-  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.svg#SchemeW01-Regular") format("svg");
+@font-face {
+    font-family: "Scheme-Regular";
+    src: url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.eot");
+    src: url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/f70b20fbdd5544d7b2452b3b8522f015.svg#SchemeW01-Regular") format("svg");
 }
 
 :root {
-  --blue: #36baa2;
-  --footerBeckground: #e2e2e2;
-  --footerItemColor: #9e9e9e;
-  --h1Color:#ffd370;
-  --main_font: "Scheme-Regular", sans-serif;
+    --blue: #36baa2;
+    --footerBeckground: #e2e2e2;
+    --footerItemColor: #9e9e9e;
+    --h1Color: #ffd370;
+    --main_font: "Scheme-Regular", sans-serif;
 }
 
 
 @media screen and (max-width: 1180px) {
-  .circleBlock {
-    width: 100%;
-    height: 140px;
-    background-image: none;
-    background-color: #f8f8f8;
-    transition: ease all .9s;
-  }
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0 auto;
-  }
+    .circleBlock {
+        width: 100%;
+        height: 140px;
+        background-image: none;
+        background-color: #f8f8f8;
+        transition: ease all .9s;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #slider_slide img {
+        width: 450px;
+        height: 345px;
+        object-fit: none;
+        transition: all 1s linear;
+    }
+
+    .someText {
+        line-height: 23px;
+        font-size: 15px;
+        font-weight: 100;
+    }
 
 }
+
 @media screen and (max-width: 900px) {
+    .someText {
+        line-height: 23px;
+        font-size: 15px;
+        font-weight: 100;
+    }
 
-  header {
-    height: 85px;
-    transition: ease all .9s;
-  }
-  .header-wrapper {
-    flex-direction: column;
-  }
-  .contactInfo {
-    width: 100%;
-    justify-content: center;
-  }
-  .socialInfo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .logo{
-    display: none;
-  }
-  .circleBlock {
-    width: 100%;
-    height: 55px;
-    background-image: none;
-    background-color: #f8f8f8;
-    transition: ease all .9s;
-  }
-  h1 {
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    .section_photo img {
+        width: 200px;
+        height: 200px;
+    }
 
-  }
+    .section__info {
+        display: flex;
+        background-color: #f8f8f8;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
 
-  h2 {
-    font-size: 18px;
-  }
+    .next {
+        position: absolute;
+        top: 660px;
+        left: 280px;
+        overflow: hidden;
+    }
 
-  .someText {
-    line-height: 39px;
-    font-size: 16px;
-  }
+    .prew {
+        position: absolute;
+        top: 660px;
+        left: 230px;
+    }
 
-  .slider_wrapper {
-    transition: ease all .9s;
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
+    header {
+        height: 85px;
+        transition: ease all .9s;
+    }
 
-  #slider_slide {
-  margin: 0 auto;
-   }
+    .header-wrapper {
+        flex-direction: column;
+    }
 
-  .about__info {
-    width: 80%;
-    margin: 0 auto;
-  }
+    .contactInfo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .socialInfo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .circleBlock {
+        width: 100%;
+        height: 55px;
+        background-image: none;
+        transition: ease all .9s;
+        background-color: #f8f8f8;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .someText {
+        line-height: 39px;
+        font-size: 16px;
+    }
+
+    .slider_wrapper {
+        transition: ease all .9s;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #slider_slide {
+        margin: 0 auto;
+    }
+
+    .about__info {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .nav {
+        font-size: 12px;
+        padding: 10px 0px;
+        transition: all .1s linear;
+    }
+
+    .circleBlock {
+        height: 50px;
+        transition: all .9s;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    .circleBlock {
+        height: 100%;
+    }
+
+    .toggle {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #ffcc01;
+        transition: all .1s linear;
+        margin-bottom: 100px;
+    }
+
+    .toggle:hover {
+        background: #d3a900;
+    }
+
+    #checkbox-menu:checked + label .touch li {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #checkbox-menu:checked + label .touch {
+        height: 350px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+        transition: height .3s linear;
+        overflow-x: hidden;
+    }
+
+    .nav_link {
+        width: 95%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    footer {
+  display: none;
+
+    }
+
 }

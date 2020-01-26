@@ -4,6 +4,8 @@
     background-image: url("../image/header_shape1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    transition: ease all .9s;
+
 }
 
 .logo {
@@ -37,4 +39,11 @@
 
 .nav_link:hover {
     color: var(--blue);
+    transition: all .5s linear;
+
+}
+
+#checkbox-menu,
+.toggle {
+    display: none;
 }
